@@ -705,6 +705,33 @@
                 font-size: 20px;
             }
         }
+        body > section,
+.diversity-gallery,
+.product-showcase,
+.ai-model-hero,
+.stats-section,
+.cta-section {
+    max-width: 1600px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+
+@media (max-width: 768px) {
+    .video-grid iframe {
+        height: 200px !important;
+    }
+    
+    .gallery-item img,
+    .showcase-item img {
+        max-height: 250px;
+        object-fit: cover;
+    }
+    
+    section {
+        padding: 50px 20px !important;
+    }
+}
     </style>
 </head>
 <body>
